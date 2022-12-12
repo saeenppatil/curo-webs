@@ -1,0 +1,7 @@
+{
+  "name": "CuroWebs App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
