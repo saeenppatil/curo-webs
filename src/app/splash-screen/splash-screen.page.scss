@@ -1,0 +1,52 @@
+ion-content {
+    --ion-background-color: #DEE6F7;
+}
+
+.startButton{
+    position: absolute;
+    left: 6.92%;
+    right: 6.92%;
+    top: 87.44%;
+    bottom: 6.75%;
+    --background: #0F15A1;
+}
+
+.title{
+    position: absolute;
+    left: 30.41%;
+    right: 15.9%;
+    top: 52.87%;
+    bottom: 44.03%;
+    z-index: 3;
+}
+
+.image{
+    position: absolute;
+    left: 28.77%;
+    right: -4.56%;
+    top: 9.36%;
+    bottom: 67.89%;
+}
+
+.stripe1 {
+  position: absolute;
+  left: -80.98%;
+  right: -26.05%;
+  top: 69.94%;
+  bottom: 25.77%;
+  
+  background: rgba(36, 176, 191, 0.21);
+  transform: rotate(-33.11deg);
+
+}
+
+.stripe2 {
+  position: absolute;
+  left: -15.87%;
+  right: -19.16%;
+  top: 47.63%;
+  bottom: 48.08%;
+  
+  background: rgba(36, 176, 191, 0.21);
+  transform: rotate(26.37deg);
+}

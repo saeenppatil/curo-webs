@@ -1,0 +1,19 @@
+<ion-content class ="background">
+  <div class="content">
+    <div class="button-action">
+      <ion-button fill="outline" class = "signin-button" size="small">
+        <b><p class="signin-text" style="font-weight: normal;">Sign In</p></b>
+      </ion-button>
+      <ion-button fill="solid" class="register-button" size="small" (click)="route_patientRegister()">
+        <b><p class="register-text" style="font-weight: normal;">Register</p></b>
+      </ion-button>
+    </div>
+    <div class = "ion-padding">
+      <ion-input placeholder = "Email" style = "color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'" [(ngModel)]="email" ></ion-input>
+    <br>
+      <ion-input placeholder = "Password" type = "password"  style = "color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'" [(ngModel)]="password" ></ion-input>
+    </div>
+    <ion-button class = "actionbutton" expand = "block" style = "text-transform: none; font-weight: normal;" (click)="route_home" (click)="route_home()" ><div class = "buttonfont" >Sign In</div></ion-button>
+
+    </div>
+</ion-content>
