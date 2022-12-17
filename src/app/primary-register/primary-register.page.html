@@ -1,0 +1,55 @@
+<ion-content class ="background">
+
+  <div class="heyThere">Hey there, </div>
+  <div class="createAccount"> Create an Account</div>
+
+  <div class="content">
+
+    <div>
+      <ion-input placeholder = "First Name" class="inputFont">
+        <ion-icon slot="start" class="personIcon"></ion-icon>
+      </ion-input>
+    <br>
+    <ion-input placeholder = "Last Name" class="inputFont">
+      <ion-icon slot="start" class="personIcon"></ion-icon>
+    </ion-input>
+  <br>
+      <ion-input placeholder = "Email" class="inputFont" type="email" >
+        <ion-icon slot="start" class="messageIcon"></ion-icon>
+      </ion-input>
+    <br>
+      <ion-input placeholder = "Password" class="inputFont" type = "password">
+        <ion-icon slot="start" class="lockIcon" ></ion-icon>
+        <ion-icon slot="end" class="passwordIcon"></ion-icon>
+      </ion-input>
+    </div>
+
+    <div class="box">
+      <label>
+        <input class="checkbox" type = "checkbox" >
+      </label>  
+    </div>
+
+    <div class="useText">
+      <span>By continuing you accept our <a class="under">Privacy Policy</a> and  
+        <a class="under">Terms of Use</a></span>     
+    </div>
+
+    <ion-button class = "loginButton" shape = "round" expand = "block" style = "text-transform: none; font-weight: normal;" >
+      <div class = "buttonfont" >Register</div>
+    </ion-button>
+
+    <ion-button fill="outline" class="googleButton">
+      <ion-icon slot="icon-only" class="googleIcon"></ion-icon>
+    </ion-button>
+
+    <ion-button fill="outline" class="facebookButton">
+      <ion-icon slot="icon-only" class="facebookIcon"></ion-icon>
+    </ion-button>
+
+
+    <div class="registerText1"> Already have an account?</div>
+    <div class="registerText2">Login</div>
+  </div>
+
+</ion-content>

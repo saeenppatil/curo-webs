@@ -36,7 +36,7 @@ ion-content.background{
     top: 325px;
   }
 
-  .ptregistrationText{
+  .clregistrationText{
     color: #1D1617;;
     @font-face {
       font-family: Poppins;
@@ -66,24 +66,10 @@ ion-content.background{
     border-radius: 14px;
  }
 
-   .input-label{
-    background-color: #F7F8F8;
+  .dropdownStyle{
+    --background-color: #F7F8F8;
     border: 1px solid #F7F8F8;
-    border-radius: 14px; 
-    width: 315px;
-    height: 40px;
-    padding-left: 50px;
-    @font-face {
-        font-family: Poppins;
-        src: url(../../assets/Poppins.zip);
-      }
-      font-style: normal;
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 40px;
-    }
-
- .inputFont1{
+    border-radius: 14px;
     color: #7B6F72;
     text-indent: 50px;
     @font-face {
@@ -97,7 +83,7 @@ ion-content.background{
     width: 315px
   }
 
-  .inputFont2{
+ .inputFont{
     color: #7B6F72;
     text-indent: 50px;
     @font-face {
@@ -108,53 +94,17 @@ ion-content.background{
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
-    width: 252px
+    width: 315px
   }
 
-  .swapIcon{
-    background: url(../../assets/Swap.png);
+  .phoneIcon{
+    background: url(../../assets/Calling.svg);
     position: absolute;
-    width: 19px;
-    height: 19px;
-    left: 16.25px;
-    top: 10.5px;
+    width: 25px;
+    height: 25px;
+    left: 11.25px;
+    top: 7.5px;
   }
-
-  .scaleIcon{
-    background: url(../../assets/weight-scale.png);
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    left: 16.25px;
-    top: 10.5px;
-  }
-
-  .calenderIcon{
-    background: url(../../assets/Calendar.png);
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    left: 16.25px;
-    top: 10.5px;
-  }
-
-  .kgImage{
-    position: absolute;
-    width: 315px;
-    height: 40px;
-    left: 160px;
-    top: 577px;
-
-  }
-
-  .cmImage{
-    position: absolute;
-    width: 315px;
-    height: 40px;
-    left: 160px;
-    top: 637px;
-  }
-
 
   .houseIcon{
     background: url(../../assets/Home.svg);

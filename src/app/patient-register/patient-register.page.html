@@ -1,41 +1,45 @@
-<ion-content class="background">
+<ion-content class="background"> 
+
+  <ion-img src="../../assets/image2.png" class="image"></ion-img>
+
+  <div class="cprofileText"> Let's complete your profile </div>
+  <div class="infoText"> It will help us to know more about you!</div>
+  <div class="ptregistrationText"> Patient Registation </div>
+
   <div class="content">
+    <ion-input placeholder = "Date of Birth" class="inputFont1">
+      <ion-icon slot="start" class="calenderIcon"></ion-icon>
+    </ion-input>
+  <br>
+  <label>
+       <div class = "input-label" style="color: #ADA4A5"> Select Gender 
+        <select>
+          <option></option>
+          <option >Male</option>
+          <option >Female</option>
+       </select>
+       </div>
+ </label>
+  <br>
+    <ion-input placeholder = "Your Weight" class="inputFont2">
+      <ion-icon slot="start" class="scaleIcon" ></ion-icon>
+    </ion-input>
+  <br>
+    <ion-input placeholder = "Your Height" class="inputFont2" type="tel">
+      <ion-icon slot="start" class="swapIcon" ></ion-icon>
+    </ion-input>
 
-    <div class="buttons-action">
-      <ion-button fill="outline" size="small" class="register1-button">
-        <p class="register-text" style="font-weight: normal;" >Register</p>
-      </ion-button>
-      <ion-button fill="solid" size="small" class="signin-button" (click)="route_login()">
-        <b>
-          <p class="signin-text" style="font-weight: normal;">Sign In</p>
-        </b>
-      </ion-button>
-    </div>
-
-    <div class="ion-padding">
-      <ion-input placeholder="Email"
-        style="color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'">
-      </ion-input>
-      <br>
-      <ion-input placeholder="Phone No." type="phone"
-      style="color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'">
-      </ion-input>
-      <br>
-      <ion-input placeholder="Password" type="password"
-        style="color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'">
-      </ion-input>
-      <br>
-      <ion-input placeholder="Repeat Password" type="password"
-        style="color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'">
-      </ion-input>
-    </div>
-
-    <ion-button class="register2-button" expand="full" style="text-transform: none;">
-      <div style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Register</div>
-    </ion-button>
-    <ion-button class="doctor-button" expand="full" style="text-transform: none;" (click)="route_doctorRegistration()" >
-      <div style="font-family: Verdana, Geneva, Tahoma, sans-serif">Doctor Registration </div>
-    </ion-button>
+    <ion-img src="../../assets/cmButton.png" class="cmImage"></ion-img>
+    <ion-img src="../../assets/kgButton.png" class="kgImage"></ion-img>
 
   </div>
+
+
+  <div>
+  <ion-button shape = "round" expand="full" class="nextButton">
+    <ion-icon slot="end" class="arrowIcon"></ion-icon>
+    <div class="buttonFont">Next</div>
+  </ion-button>
+  </div>
+
 </ion-content>

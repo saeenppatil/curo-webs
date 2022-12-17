@@ -25,8 +25,16 @@ const routes: Routes = [
     loadChildren: () => import('./patient-register/patient-register.module').then( m => m.PatientRegisterPageModule)
   },
   {
-    path: 'doctor-registration',
-    loadChildren: () => import('./doctor-registration/doctor-registration.module').then( m => m.DoctorRegistrationPageModule)
+    path: 'welcome-splash-screen',
+    loadChildren: () => import('./welcome-splash-screen/welcome-splash-screen.module').then( m => m.WelcomeSplashScreenPageModule)
+  },
+  {
+    path: 'clinic-register',
+    loadChildren: () => import('./clinic-register/clinic-register.module').then( m => m.ClinicRegisterPageModule)
+  },
+  {
+    path: 'primary-register',
+    loadChildren: () => import('./primary-register/primary-register.module').then( m => m.PrimaryRegisterPageModule)
   },
 ];
 

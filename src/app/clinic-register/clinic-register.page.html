@@ -1,0 +1,41 @@
+<ion-content class="background"> 
+
+  <ion-img src="../../assets/image2.png" class="image"></ion-img>
+
+  <div class="cprofileText"> Let's complete your profile </div>
+  <div class="infoText"> It will help us to know more about you!</div>
+  <div class="clregistrationText"> Clinic Registation </div>
+
+  <div class="content">
+    <ion-input placeholder = "Clinic Name" class="inputFont">
+      <ion-icon slot="start" class="houseIcon"></ion-icon>
+    </ion-input>
+  <br>
+    <ion-list>
+      <ion-item >
+        <ion-select placeholder="Select all fruits that apply" [multiple]="true" class="dropdownStyle">
+          <ion-select-option value="apples">Apples</ion-select-option>
+          <ion-select-option value="oranges">Oranges</ion-select-option>
+          <ion-select-option value="bananas">Bananas</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  <br>
+    <ion-input placeholder = "Address" class="inputFont">
+      <ion-icon slot="start" class="houseIcon" ></ion-icon>
+    </ion-input>
+  <br>
+    <ion-input placeholder = "Contact Number" class="inputFont" type="tel">
+      <ion-icon slot="start" class="phoneIcon" ></ion-icon>
+    </ion-input>
+  </div>
+
+
+  <div>
+  <ion-button shape = "round" expand="full" class="nextButton">
+    <ion-icon slot="end" class="arrowIcon"></ion-icon>
+    <div class="buttonFont">Next</div>
+  </ion-button>
+  </div>
+
+</ion-content>

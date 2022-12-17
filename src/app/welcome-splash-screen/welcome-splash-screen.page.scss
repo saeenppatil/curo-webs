@@ -1,0 +1,70 @@
+ion-content.background{
+    --ion-background-color: white;
+  }
+    
+  .image{
+    position: absolute;
+    left: 15.02%;
+    right: 12.92%;
+    top: 12.56%;
+    bottom: 51.38%;
+ }
+ 
+  .welcomeUser{
+    color: #1D1617;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    width: 196px;
+    height: 30px;
+    left: 103px;
+    top: 450px; 
+  }
+
+  .welcomeText{
+    color: #7B6F72;;
+    text-align: center;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    width: 214px;
+    height: 36px;
+    left: 88px;
+    top: 485px;    
+  }
+
+  .goHomeButton{
+    --background: linear-gradient(274.42deg, #0B7ABF 0%, #9DCEFF 124.45%);
+    border-radius: 99px;
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 37px;
+    top: 712px;     
+    --box-shadow: 0px 10px 22px rgba(149, 173, 254, 0.3);
+  }
+
+  .buttonFont{
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    width: 98px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }

@@ -1,19 +1,43 @@
 <ion-content class ="background">
+
+  <div class="titleImage">
+    <ion-img src="../../assets/app-title.png"></ion-img>
+  </div>
+
+  <div class="heyThere">Hey there, </div>
+  <div class="welcomeBack"> Welcome Back</div>
+
   <div class="content">
-    <div class="button-action">
-      <ion-button fill="outline" class = "signin-button" size="small">
-        <b><p class="signin-text" style="font-weight: normal;">Sign In</p></b>
-      </ion-button>
-      <ion-button fill="solid" class="register-button" size="small" (click)="route_patientRegister()">
-        <b><p class="register-text" style="font-weight: normal;">Register</p></b>
-      </ion-button>
-    </div>
-    <div class = "ion-padding">
-      <ion-input placeholder = "Email" style = "color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'" [(ngModel)]="email" ></ion-input>
+
+    <div>
+      <ion-input placeholder = "Email" class="inputFont" type="email" [(ngModel)]="email" >
+        <ion-icon slot="start" class="messageIcon"></ion-icon>
+      </ion-input>
     <br>
-      <ion-input placeholder = "Password" type = "password"  style = "color:black; padding-left: 10px !important; font-family:'Verdana, Geneva, Tahoma, sans-serif;'" [(ngModel)]="password" ></ion-input>
+      <ion-input placeholder = "Password" class="inputFont" type = "password" [(ngModel)]="password" >
+        <ion-icon slot="start" class="lockIcon" ></ion-icon>
+        <ion-icon slot="end" class="passwordIcon"></ion-icon>
+      </ion-input>
     </div>
-    <ion-button class = "actionbutton" expand = "block" style = "text-transform: none; font-weight: normal;" (click)="route_home" (click)="route_home()" ><div class = "buttonfont" >Sign In</div></ion-button>
+
+    <div class="forgotPasswordText"> Forgot your password?</div>
+
+    <ion-button class = "loginButton" shape = "round" expand = "block" style = "text-transform: none; font-weight: normal;" (click)="route_home" (click)="route_home()" >
+      <ion-icon slot="start" class="loginIcon"></ion-icon>
+      <div class = "buttonfont" >Login</div>
+    </ion-button>
+
+    <ion-button fill="outline" class="googleButton">
+      <ion-icon slot="icon-only" class="googleIcon"></ion-icon>
+    </ion-button>
+
+    <ion-button fill="outline" class="facebookButton">
+      <ion-icon slot="icon-only" class="facebookIcon"></ion-icon>
+    </ion-button>
+
+
+    <div class="registerText1"> Don't have an account yet?</div>
+    <div class="registerText2">Register</div>
 
     </div>
 </ion-content>
