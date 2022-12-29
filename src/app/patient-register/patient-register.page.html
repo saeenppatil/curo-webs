@@ -7,38 +7,30 @@
   <div class="ptregistrationText"> Patient Registation </div>
 
   <div class="content">
-    <ion-input placeholder = "Date of Birth" class="inputFont1">
-      <ion-icon slot="start" class="calenderIcon"></ion-icon>
-    </ion-input>
-  <br>
-  <label>
-       <div class = "input-label" style="color: #ADA4A5"> Select Gender 
-        <select>
-          <option></option>
-          <option >Male</option>
-          <option >Female</option>
-       </select>
-       </div>
- </label>
-  <br>
-    <ion-input placeholder = "Your Weight" class="inputFont2">
-      <ion-icon slot="start" class="scaleIcon" ></ion-icon>
-    </ion-input>
-  <br>
-    <ion-input placeholder = "Your Height" class="inputFont2" type="tel">
-      <ion-icon slot="start" class="swapIcon" ></ion-icon>
-    </ion-input>
+    <form [formGroup]="ptregisterForm">
+      <ion-input formControlName="birthdate" placeholder = "Date of Birth" class="inputFont1">
+        <ion-icon slot="start" class="calenderIcon"></ion-icon>
+      </ion-input>
+      <br>
+      <br>
+      <ion-input formControlName="weight" placeholder = "Your Weight" class="inputFont2">
+        <ion-icon slot="start" class="scaleIcon" ></ion-icon>
+      </ion-input>
+      <br>
+      <ion-input formControlName="height" placeholder = "Your Height" class="inputFont2" type="tel">
+        <ion-icon slot="start" class="swapIcon" ></ion-icon>
+      </ion-input>
 
-    <ion-img src="../../assets/cmButton.png" class="cmImage"></ion-img>
-    <ion-img src="../../assets/kgButton.png" class="kgImage"></ion-img>
-
+      <ion-img src="../../assets/cmButton.png" class="cmImage"></ion-img>
+      <ion-img src="../../assets/kgButton.png" class="kgImage"></ion-img>
+  </form>
   </div>
 
 
   <div>
-  <ion-button shape = "round" expand="full" class="nextButton">
+  <ion-button shape = "round" expand="full" class="nextButton" (click)="route_welcomeScreen()" >
     <ion-icon slot="end" class="arrowIcon"></ion-icon>
-    <div class="buttonFont">Next</div>
+    <div class="buttonFont" >Next</div>
   </ion-button>
   </div>
 

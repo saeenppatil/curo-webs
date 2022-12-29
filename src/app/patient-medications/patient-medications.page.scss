@@ -1,0 +1,156 @@
+ion-content.background{
+    --ion-background-color: white;
+  }
+
+  .title{
+    color: #1D1617;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    width: 178px;
+    height: 24px;
+    left: 120px;
+    top: 43px;    
+ }
+
+ .backButton{
+    --background: #F7F8F8;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 30px;
+    top: 35px;
+  }
+
+ .larrowIcon{
+    background: url(../../assets/larrow.png);
+    position: absolute;
+    width: 20px;
+    height: 18px;
+  }
+
+  .optionsButton{
+    --background: #F7F8F8;
+    position: absolute;
+    width: 32px;
+    height: 24.4px;
+    left: 330px;
+    top: 38.05px;
+  }
+
+  .dotsIcon{
+    background: url(../../assets/dots.png);
+    position: absolute;
+    width: 10px;
+    height: 5px;
+  }
+
+  .leftIcon{
+    background: url(../../assets/larrow1png.png);
+    position: absolute;
+    width: 8px;
+    height: 15px;
+  }
+
+  .rightIcon{
+    background: url(../../assets/larrow2.png);
+    position: absolute;
+    width: 8px;
+    height: 15px;
+  }
+
+  .leftButton{
+    --background: #FFFFFF;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 104px;
+    top: 88px;
+  }
+
+  .rightButton{
+    --background: #FFFFFF;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 249px;
+    top: 88px;
+  }
+
+  .profile{
+    color: #ADA4A5;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    left: 170px;
+    top: 92px;  
+ }
+ 
+ .profileCard{
+    position: absolute;
+    width: 315px;
+    height: 94px;
+    left: 30px;
+    top: 126px;
+    background: linear-gradient(274.42deg, #92A3FD 0%, #9DCEFF 124.45%,);
+    border-radius: 16px !important;
+  }
+
+  .pCardFont{
+    color: #1D1617;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    left: 5.47%;
+    right: 58.13%;
+    top: 10.21%;
+    bottom: 84.62%;
+  }
+
+  .pCardDetailsFont{
+    color: #7B6F72;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    width: 215.18px;
+    height: 36px;
+    left: -2px;
+    top: 27px;
+  }
+
+  .profileToggle{
+    --background: linear-gradient(274.42deg, #C58BF2 0%, #EEA4CE 124.45%);
+    --background-checked: linear-gradient(274.42deg, #C58BF2 0%, #EEA4CE 124.45%);
+    --handle-width: 15px;
+    --handle-height: 15px;
+    width: 44px;
+    height: 24px;
+    left: 245px;
+    top: 40px;
+ }

@@ -36,6 +36,14 @@ const routes: Routes = [
     path: 'primary-register',
     loadChildren: () => import('./primary-register/primary-register.module').then( m => m.PrimaryRegisterPageModule)
   },
+  {
+    path: 'patient-dashboard',
+    loadChildren: () => import('./patient-dashboard/patient-dashboard.module').then( m => m.PatientDashboardPageModule)
+  },
+  {
+    path: 'patient-medications',
+    loadChildren: () => import('./patient-medications/patient-medications.module').then( m => m.PatientMedicationsPageModule)
+  },
 ];
 
 @NgModule({

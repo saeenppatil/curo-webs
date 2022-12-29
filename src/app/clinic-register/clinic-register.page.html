@@ -7,32 +7,34 @@
   <div class="clregistrationText"> Clinic Registation </div>
 
   <div class="content">
-    <ion-input placeholder = "Clinic Name" class="inputFont">
-      <ion-icon slot="start" class="houseIcon"></ion-icon>
-    </ion-input>
-  <br>
-    <ion-list>
-      <ion-item >
-        <ion-select placeholder="Select all fruits that apply" [multiple]="true" class="dropdownStyle">
-          <ion-select-option value="apples">Apples</ion-select-option>
-          <ion-select-option value="oranges">Oranges</ion-select-option>
-          <ion-select-option value="bananas">Bananas</ion-select-option>
-        </ion-select>
-      </ion-item>
-    </ion-list>
-  <br>
-    <ion-input placeholder = "Address" class="inputFont">
-      <ion-icon slot="start" class="houseIcon" ></ion-icon>
-    </ion-input>
-  <br>
-    <ion-input placeholder = "Contact Number" class="inputFont" type="tel">
-      <ion-icon slot="start" class="phoneIcon" ></ion-icon>
-    </ion-input>
+    <form [formGroup]="clregisterForm">
+      <ion-input formControlName = "clinic" placeholder = "Clinic Name" class="inputFont">
+        <ion-icon slot="start" class="houseIcon"></ion-icon>
+      </ion-input>
+      <br>
+      <ion-list>
+        <ion-item >
+          <ion-select placeholder="Select all fruits that apply" [multiple]="true" class="dropdownStyle">
+            <ion-select-option value="apples">Apples</ion-select-option>
+            <ion-select-option value="oranges">Oranges</ion-select-option>
+            <ion-select-option value="bananas">Bananas</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <br>
+      <ion-input formControlName = "address" placeholder = "Address" class="inputFont">
+        <ion-icon slot="start" class="houseIcon" ></ion-icon>
+      </ion-input>
+      <br>
+      <ion-input formControlName = "phone" placeholder = "Contact Number" class="inputFont" type="tel">
+        <ion-icon slot="start" class="phoneIcon" ></ion-icon>
+      </ion-input>
+  </form>
   </div>
 
 
   <div>
-  <ion-button shape = "round" expand="full" class="nextButton">
+  <ion-button shape = "round" expand="full" class="nextButton" (click)="route_welcomeScreen()">
     <ion-icon slot="end" class="arrowIcon"></ion-icon>
     <div class="buttonFont">Next</div>
   </ion-button>

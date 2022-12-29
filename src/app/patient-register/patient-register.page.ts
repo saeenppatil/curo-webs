@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,22 +9,23 @@ import { Router } from '@angular/router';
 })
 export class PatientRegisterPage implements OnInit {
 
-  
+  ptregisterForm: FormGroup;
 
 
   constructor(
     private router: Router,
-  ) { }
+    private fb: FormBuilder,
+    ) { }
 
   ngOnInit() {
+
+    
   }
 
-  route_login() {
-    this.router.navigate(["/login"])
+
+  route_welcomeScreen() {
+    this.router.navigate(["/welcome-splash-screen"])
   }
 
-  route_doctorRegistration() {
-    this.router.navigate(["/doctor-registration"])
-  }
 }
 

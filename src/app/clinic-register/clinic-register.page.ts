@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-clinic-register',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClinicRegisterPage implements OnInit {
 
-  constructor() { }
+  clregisterForm: FormGroup;
+
+  constructor(
+    private router: Router,
+    private fb: FormBuilder,
+  ) { }
 
   ngOnInit() {
+
+    this.clregisterForm = this.fb.group({
+      clinic: ['', Validators.required],
+      address: ['', Validators.required],
+      phone: ['', Validators.required],
+    });
   }
+
+  
+  route_welcomeScreen() {
+    this.router.navigate(["/welcome-splash-screen"])
+  }
+
 
 }

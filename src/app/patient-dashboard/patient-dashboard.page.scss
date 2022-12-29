@@ -1,0 +1,160 @@
+ion-content.background{
+    --ion-background-color: white;
+  }
+
+
+  .BMICard{
+    position: absolute;
+    width: 315px;
+    height: 146px;
+    left: 30px;
+    top: 123px;
+    background: linear-gradient(274.42deg, #0B7ABF 0%, #9DCEFF 124.45%);
+    border-radius: 22px !important;
+  }
+
+  .BMIFont1{
+    color: #FFFFFF;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    left: 2.35%;
+    right: 22.22%;
+    top: 25.62%;
+    bottom: 52.05%;
+  }
+    
+  .BMIFont2{
+    color: #FFFFFF;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    left: 2.35%;
+    right: 22.22%;
+    top: 7.81%;
+    bottom: 67.81%;
+
+  }
+
+  .vmButton{
+    width: 95px;
+    height: 35px;
+    position: absolute;
+    left: 10.35%;
+    right: 63.49%;
+    top: 58.22%;
+    bottom: 17.81%;
+    background: linear-gradient(274.42deg, #C58BF2 0%, #EEA4CE 124.45%);
+    border-radius: 50px;
+  }
+
+  .vmButtonFont{
+    color: #FFFFFF;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .apptCard{
+    position: absolute;
+    width: 315px;
+    height: 57px;
+    left: 30px;
+    top: 299px;
+    background: linear-gradient(274.42deg, #92A3FD 0%, #9DCEFF 124.45%,);
+    --background-opacity: 0.2;
+    border-radius: 16px !important;
+  }
+ 
+  .apptCardFont{
+    color: #1D1617;;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    left: 2.35%;
+    right: 22.22%;
+    top: 0.22%;
+    bottom: 72.81%;
+  }
+
+  .checkButton{
+    width: 68px;
+    height: 28px;
+    position: absolute;
+    left: 72.06%;
+    right: 6.35%;
+    top: 26.32%;
+    bottom: 24.56%;
+    background: linear-gradient(274.42deg, #0B7ABF 0%, #9DCEFF 124.45%);
+    border-radius: 50px;
+  }
+
+  .checkButtonFont{
+    color: #FFFFFF;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+ }       
+
+ .welcomeBack{
+    color: #ADA4A5;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    width: 92px;
+    height: 18px;
+    left: 30px;
+    top: 40px;
+ }
+
+ .user{
+    color: #1D1617;
+    @font-face {
+      font-family: Poppins;
+      src: url(../../assets/Poppins.zip);
+    }
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    width: 89px;
+    height: 30px;
+    left: 30px;
+    top: 63px;
+
+ }
